@@ -22,3 +22,9 @@ function drawBackground(background, context, sprites){
 		context.drawImage(buffer, 0, 0);
 	};
 }
+
+export function createSpriteLayer(entity){
+	return function drawSpriteLayer(context){
+		entity.draw(context);
+	};
+}
