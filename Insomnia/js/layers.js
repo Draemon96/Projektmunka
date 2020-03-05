@@ -11,9 +11,6 @@
 	let startIndex, endIndex;
 
 	function redraw(drawFrom, drawTo){
-		if(drawFrom === startIndex && drawTo === endIndex){
-			return
-		}
 		startIndex = drawFrom;
 		endIndex = drawTo;
 
@@ -21,7 +18,11 @@
 			const col = tiles.grid[x];
 			if (col) {
 				col.forEach((tile, y)=>{
-					sprites.drawTile(tile.name,context,x - startIndex,y);
+					if(sprites.animation.has(tile.name)){
+						sprites.drawAnim(tile.name,context,x - startIndex, y, level.totalTime);
+					}else{
+						sprites.drawTile(tile.name,context,x - startIndex,y);
+					}
 				});
 			}
 		}
