@@ -1,7 +1,7 @@
 import Camera from './Camera.js';
 import Timer from './timer.js';
 import Entity from './Entity.js';
-import {loadLevel} from './loader.js';
+import {loadLevel} from './loaders/level.js';
 import {createMario} from './entities.js';
 import {setupKeyboard} from './input.js';
 
