@@ -364,8 +364,64 @@
             "pos" : [260, 0]
         },
         {
+            "name" : "koopa",
+            "pos" : [300, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [750, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [800, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [2750, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [2700, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [2200, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [2250, 0]
+        },
+        {
+            "name" : "koopa",
+            "pos" : [2300, 0]
+        },
+        {
             "name" : "goomba",
             "pos" : [220, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [2000, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [1500, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [1000, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [2500, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [2800, 0]
+        },
+        {
+            "name" : "goomba",
+            "pos" : [700, 0]
         }
     ]
 }
