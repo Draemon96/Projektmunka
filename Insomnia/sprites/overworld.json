@@ -18,39 +18,39 @@
 		},
 		{
 			"name" : "bricks",
-			"index" : [63,6]
+			"index" : [16,14]
 		},
 		{
 			"name": "chance",
-			"index": [26,2]
+			"index": [1,18]
 		},
 		{
 			"name": "chance-1",
-			"index": [26,2]
+			"index": [1,18]
 		},
 		{
 			"name": "chance-2",
-			"index": [27,2]
+			"index": [8,18]
 		},
 		{
 			"name": "chance-3",
-			"index": [29,2]
+			"index": [9,18]
 		},
 		{
 			"name" : "pipe-insert-vert-left",
-			"index" : [62,1]
+			"index" : [17,12]
 		},
 		{
 			"name" : "pipe-insert-vert-right",
-			"index" : [62,1]
+			"index" : [15,12]
 		},
 		{
 			"name" : "pipe-vert-left",
-			"index" : [61,1]
+			"index" : [13,12]
 		},
 		{
 			"name" : "pipe-vert-right",
-			"index" : [61,1]
+			"index" : [13,12]
 		},
 		{
             "name": "cloud-1-1",
@@ -134,13 +134,13 @@
 	"animations" : [
 		{
 			"name" : "chance",
-			"frameLen" : 0.12,
+			"frameLen" : 1,
 			"frames" : [
 				"chance-1",
-				"chance-1",
+				
 				"chance-2",
-				"chance-3",
-				"chance-2"
+				"chance-3"
+				
 			]
 		},
 		{
