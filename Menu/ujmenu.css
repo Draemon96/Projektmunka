@@ -1,0 +1,57 @@
+#container{
+	margin-top: 10%;
+	margin-left : 35%;
+	margin-right : 30%;
+	width:1280px;
+	height: 720px;
+}
+
+#bg{
+	margin-top: 5%;
+	margin-left : 15%;
+	margin-right : 30%;
+	width: 1280px;
+	height: 720px;
+}
+
+.btn{
+	width:200px ;
+	height:50px;
+}
+
+#ng{
+	position: relative;
+	left:140px;
+	top:120px;
+}
+
+#opt{
+	position: relative;
+	left: 140px;
+	top:140px;
+}
+
+#cred{
+	position: relative;
+	left: 140px;
+	top:160px;
+}
+
+#bg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+#insomnia{
+	width:240px;
+	height:70px;
+	position: relative;
+	left: 120px;
+	top:60px;
+}
+
+.btn:hover{
+	border:3px solid #7F0B0B;
+}
