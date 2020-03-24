@@ -6,7 +6,7 @@
 	"tiles" : [
 		{
 			"name" : "ground",
-			"index" : [49,3]
+			"index" : [14,14]
 		},
 		{
 			"name" : "sky",
@@ -14,11 +14,11 @@
  		},
 		{
 			"name" : "chocolate",
-			"index" : [13,15]
+			"index" : [8,15]
 		},
 		{
 			"name" : "bricks",
-			"index" : [16,14]
+			"index" : [0,19]
 		},
 		{
 			"name": "chance",
@@ -38,19 +38,19 @@
 		},
 		{
 			"name" : "pipe-insert-vert-left",
-			"index" : [17,12]
+			"index" : [26,18]
 		},
 		{
 			"name" : "pipe-insert-vert-right",
-			"index" : [15,12]
+			"index" : [26,18]
 		},
 		{
 			"name" : "pipe-vert-left",
-			"index" : [13,12]
+			"index" : [26,18]
 		},
 		{
 			"name" : "pipe-vert-right",
-			"index" : [13,12]
+			"index" : [26,18]
 		},
 		{
             "name": "cloud-1-1",
