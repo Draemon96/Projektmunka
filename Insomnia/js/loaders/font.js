@@ -1,4 +1,4 @@
-import {loadImage} from '../loader.js';
+import {loadImage} from '../loaders.js';
 import SpriteSheet from '../SpriteSheet.js';
 
 const CHARS = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';

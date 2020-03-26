@@ -1,7 +1,7 @@
 import {Matrix} from '../math.js';
 import Level from '../Level.js';
 import {createSpriteLayer} from '../layers/sprites.js';
-import {loadJSON, loadSpriteSheet} from '../loader.js';
+import {loadJSON, loadSpriteSheet} from '../loaders.js';
 import {createBackgroundLayer} from '../layers/background.js';
 
 function setupCollision(levelSpec, level){
