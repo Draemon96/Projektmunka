@@ -169,22 +169,36 @@
                     "name": "sky",
                     "ranges": [
                         [
-                            0, 212,
+                            0, 1000,
                             0, 13
                         ]
                     ]
                 },
                 {
+                    "_comment": "talaj, tető, oldalzár",
                     "name": "ground",
                     "type": "ground",
                     "ranges": [
                         [
-                            0, 212,
+                            0, 1000,
                             13, 2
+                        ],
+                        [
+                            0, 1000,
+                            0, 1
+                        ],
+                        [
+                            -1, 1,
+                            -1, 15
+                        ],
+                        [
+                            1001, 1,
+                            1001, 15
                         ]
                     ]
                 },
                 {
+                    "_comment": "talajnál a szakadék",
                     "name": "sky",
                     "ranges": [
                         [
@@ -199,6 +213,7 @@
                             157, 2,
                             13, 2
                         ]
+                        
                     ]
                 },
                 {
