@@ -92,7 +92,7 @@ class Behavior extends Trait{
 
 	update(us, deltaTime){
 		if(this.state === STATE_HIDING){
-			this.hideTime += deltaTime;
+			this.hideTime += 0.02;
 			if(this.hideTime >this.hideDuration){
 				this.unhide(us);
 			}
