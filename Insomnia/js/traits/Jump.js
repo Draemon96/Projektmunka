@@ -38,7 +38,7 @@ export default class Jump extends Trait{
 		//console.log(audioBoard);
 		if(this.requestTime > 0){
 			if(this.ready > 0){
-				this.sounds.add('Jump');
+				entity.sounds.add('Jump');
 				//console.log('Jump has audio board', entity.audio);
 				this.engageTime = this.duration;
 				this.requestTime = 0;

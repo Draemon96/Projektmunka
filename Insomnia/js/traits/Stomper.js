@@ -18,9 +18,10 @@ export default class Stomper extends Trait{
 			return;
 		}
 
+		//console.log('Collision in Mario', us.vel.y);
 		if (us.vel.y > them.vel.y){
-			this.bounce(us, them);
-			this.sounds.add('Stomp');
+			this.queue(() => this.bounce(us, them));
+			us.sounds.add('Stomp');
 			this.events.emit('stomp', us, them);
 		}
 	}

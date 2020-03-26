@@ -1,0 +1,10 @@
+{
+	"imageURL":"/img/tileset_2_.png",
+
+	"frames" : [
+		{
+			"name" : "bullet",
+			"rect" : [800, 1089, 16, 16]
+		}
+	]
+}

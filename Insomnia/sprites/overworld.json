@@ -127,6 +127,18 @@
         {
         	"name": "help",
         	"index": [57,52]
+        },
+        {
+            "name": "cannon-1",
+            "index": [12,1]
+        },
+        {
+            "name": "cannon-2",
+            "index": [51,75]
+        },
+        {
+            "name": "cannon-3",
+            "index": [12,2]
         }
 
 	],
