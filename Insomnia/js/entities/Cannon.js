@@ -3,7 +3,8 @@ import Emitter from '../traits/Emitter.js';
 import {findPlayers} from '../player.js';
 import {loadAudioBoard} from '../loaders/audio.js';
 
-const HOLD_FIRE_TRHESHOLD = 30;
+const HOLD_FIRE_TRESHOLD = 30;
+const HOLD_FIRE_LONG = 300;
 
 export function loadCannon(audioContext, entityFactories){
 	return loadAudioBoard('cannon', audioContext)
@@ -18,8 +19,13 @@ function createCannonFactory(audio, entityFactories){
 		let dir = 1;
 		for (const player of findPlayers(level)){
 			//console.log(player);
-			if(player.pos.x > cannon.pos.x - HOLD_FIRE_TRHESHOLD
-			&& player.pos.x < cannon.pos.x + HOLD_FIRE_TRHESHOLD){
+			if(player.pos.x > cannon.pos.x - HOLD_FIRE_TRESHOLD
+			&& player.pos.x < cannon.pos.x + HOLD_FIRE_TRESHOLD){
+				return;
+			}
+
+			if(player.pos.x > cannon.pos.x + HOLD_FIRE_LONG
+			|| player.pos.x < cannon.pos.x - HOLD_FIRE_LONG){
 				return;
 			}
 
@@ -42,7 +48,7 @@ function createCannonFactory(audio, entityFactories){
 		cannon.audio = audio;
 
 		const emitter = new Emitter();
-		emitter.interval = 4;
+		emitter.interval = 3;
 		emitter.emitters.push(emitBullet);
 		cannon.addTrait(emitter);
 
