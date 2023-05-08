@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Draemon96/Projektmunka#readme",
   "dependencies": {
-    "serve": "^11.3.0"
+    "serve": "^14.2.0"
   }
 }
